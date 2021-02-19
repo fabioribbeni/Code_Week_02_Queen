@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    font-family: 'Gotham', sans-serif;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+}
+
+header{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+header h1 i{
+    color: #003297;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+select{
+    margin-top: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #121212 ;
+    color: white;
+    border: 1px solid white;
+    appearance: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 7px;
+    transition: 0.3s ease;
+    
+}
+
+select:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+}
+
+select:focus{
+    opacity: 1;
+    background-color: white;
+    color:black;
+    text-transform: uppercase;
+}
+main{
+    padding: 20px 50px 0 50px;
+    min-height:100vh;
+    background-color: #252525;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.albumCard{
+    max-width: 200px;
+    height: 270px;
+    max-height: 270px;
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.albumCard img{
+max-width: inherit;
+margin-bottom: 15px;
+}
+
+.albumCard h2 {
+    padding: 0 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    padding: 10px 10px;
+    height: 70px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+footer p{
+    margin-left: 50px;
+    max-width: 50%;
+}
+
+#cookiesBtn{
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    font-weight: 800;
+    border: none;
+    border-radius: 50px;
+}
+
+#cookiesBtn:active{
+    background-color: black;
+    color: white;
+}
+
+.hidden{
+display: none;
+}
